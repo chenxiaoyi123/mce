@@ -1,0 +1,3988 @@
+{
+    "swagger": "2.0",
+    "paths": {
+        "/orderschedule/index.php/Home/Accounts/signin": {
+            "post": {
+                "tags": [
+                    "Accounts"
+                ],
+                "summary": "\u767b\u5f55",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "query",
+                        "description": "\u7528\u6237\u767b\u5f55\u8d26\u53f7",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "password",
+                        "in": "query",
+                        "description": "\u767b\u5f55\u5bc6\u7801",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Accounts/logout": {
+            "post": {
+                "tags": [
+                    "Accounts"
+                ],
+                "summary": "\u767b\u51fa",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Accounts/signup": {
+            "post": {
+                "tags": [
+                    "Accounts"
+                ],
+                "summary": "\u6ce8\u518c",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userName",
+                        "in": "query",
+                        "description": "\u7528\u6237\u767b\u5f55\u8d26\u53f7",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "password",
+                        "in": "query",
+                        "description": "\u767b\u5f55\u5bc6\u7801",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "\u7528\u6237\u59d3\u540d",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "phone",
+                        "in": "query",
+                        "description": "\u7528\u6237\u624b\u673a\u53f7",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "address",
+                        "in": "query",
+                        "description": "\u7528\u6237\u5730\u5740",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Accounts/changePassword": {
+            "post": {
+                "tags": [
+                    "Accounts"
+                ],
+                "summary": "\u4fee\u6539\u5bc6\u7801",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "originPassword",
+                        "in": "query",
+                        "description": "\u65e7\u5bc6\u7801",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "newPassword",
+                        "in": "query",
+                        "description": "\u65b0\u5bc6\u7801",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "rePassword",
+                        "in": "query",
+                        "description": "\u786e\u8ba4\u65b0\u5bc6\u7801",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Businesses/establish": {
+            "post": {
+                "tags": [
+                    "Businesses"
+                ],
+                "summary": "\u65b0\u5efa\u4e1a\u52a1\u7c7b\u578b",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1\u540d\u79f0",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "description",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1\u7b80\u8ff0",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1\u7c7b\u578b",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Businesses/obtainAll": {
+            "get": {
+                "tags": [
+                    "Businesses"
+                ],
+                "summary": "\u83b7\u53d6\u6240\u6709\u4e1a\u52a1\u7c7b\u578b",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Businesses/obtainOne?id={id}": {
+            "get": {
+                "tags": [
+                    "Businesses"
+                ],
+                "summary": "\u83b7\u53d6\u5355\u4e2a\u4e1a\u52a1\u7c7b\u578b",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Businesses/delete?id={id}": {
+            "delete": {
+                "tags": [
+                    "Businesses"
+                ],
+                "summary": "\u5220\u9664\u4e1a\u52a1\u7c7b\u578b",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Businesses/update?id={id}": {
+            "patch": {
+                "tags": [
+                    "Businesses"
+                ],
+                "summary": "\u66f4\u65b0\u4e1a\u52a1\u7c7b\u578b",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Businesses/validate": {
+            "post": {
+                "tags": [
+                    "Businesses"
+                ],
+                "summary": "\u9a8c\u8bc1\u662f\u5426\u53ef\u7528",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1\u540d",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CallHistories/obtainAll": {
+            "get": {
+                "tags": [
+                    "CallHistories"
+                ],
+                "summary": "\u5206\u9875\u83b7\u53d6\u901a\u8bdd\u8bb0\u5f55",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "PageIndex",
+                        "in": "query",
+                        "description": "\u7b2c\u51e0\u9875",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "PageSize",
+                        "in": "query",
+                        "description": "\u663e\u793a\u591a\u5c11\u6761",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CallHistories/establish": {
+            "post": {
+                "tags": [
+                    "CallHistories"
+                ],
+                "summary": "\u65b0\u589e\u901a\u8bdd\u8bb0\u5f55",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "in": "query",
+                        "description": "\u7528\u6237id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "\u663e\u793a\u591a\u5c11\u6761",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "orderId",
+                        "in": "query",
+                        "description": "\u8ba2\u5355id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "phone",
+                        "in": "query",
+                        "description": "\u624b\u673a\u53f7",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "recordFile",
+                        "in": "query",
+                        "description": "\u5f55\u97f3\u6587\u4ef6\u8def\u5f84",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "callState",
+                        "in": "query",
+                        "description": "\u901a\u8bdd\u72b6\u6001",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "reason",
+                        "in": "query",
+                        "description": "\u672a\u63a5\u901a\u539f\u56e0",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "startTime",
+                        "in": "query",
+                        "description": "startTime",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "endTime",
+                        "in": "query",
+                        "description": "endTime",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "robotName",
+                        "in": "query",
+                        "description": "\u673a\u5668\u4eba\u7f16\u53f7",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CallHistories/obtainOne?id={id}": {
+            "get": {
+                "tags": [
+                    "CallHistories"
+                ],
+                "summary": "\u83b7\u53d6\u5355\u4e2a\u901a\u8bdd\u8bb0\u5f55",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "Id",
+                        "in": "query",
+                        "description": "\u901a\u8bdd\u8bb0\u5f55ID",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CallHistories/delete?id={id}": {
+            "delete": {
+                "tags": [
+                    "CallHistories"
+                ],
+                "summary": "\u5220\u9664\u901a\u8bdd\u8bb0\u5f55",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CallHistories/search": {
+            "post": {
+                "tags": [
+                    "CallHistories"
+                ],
+                "summary": "\u641c\u7d22",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "\u901a\u8bdd\u8bb0\u5f55id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CallHistories/export": {
+            "get": {
+                "tags": [
+                    "CallHistories"
+                ],
+                "summary": "\u5bfc\u51fa\u901a\u8bdd\u8bb0\u5f55",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "Phone",
+                        "in": "query",
+                        "description": "\u624b\u673a\u53f7",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "BusinessId",
+                        "in": "query",
+                        "description": "\u4e1a\u52a1id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "StartTime",
+                        "in": "query",
+                        "description": "\u5f00\u59cb\u65f6\u95f4",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "EndTime",
+                        "in": "query",
+                        "description": "\u7ed3\u675f\u65f6\u95f4",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "PageIndex",
+                        "in": "query",
+                        "description": "\u7b2c\u51e0\u9875",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "PageSize",
+                        "in": "query",
+                        "description": "\u51e0\u6761\u6570\u636e",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CrawlerConfig/obtainAll": {
+            "get": {
+                "tags": [
+                    "CrawlerConfig"
+                ],
+                "summary": "\u67e5\u770b\u6240\u6709\u914d\u7f6e",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CrawlerConfig/establish": {
+            "post": {
+                "tags": [
+                    "CrawlerConfig"
+                ],
+                "summary": "\u521b\u5efa\u914d\u7f6e",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "pointId",
+                        "in": "query",
+                        "description": "pointId",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "userId",
+                        "in": "query",
+                        "description": "userId",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "delivery",
+                        "in": "query",
+                        "description": "delivery",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "needMatchPoint",
+                        "in": "query",
+                        "description": "needMatchPoint",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CrawlerConfig/delete?id={id}": {
+            "delete": {
+                "tags": [
+                    "CrawlerConfig"
+                ],
+                "summary": "\u5220\u9664\u914d\u7f6e",
+                "description": "",
+                "operationId": "getUserByName",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username supplied"
+                    },
+                    "404": {
+                        "description": "User not found"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/CrawlerConfig/update?id={id}": {
+            "patch": {
+                "tags": [
+                    "CrawlerConfig"
+                ],
+                "summary": "\u4fee\u6539\u914d\u7f6e",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/ExpressContrast/obtainAll": {
+            "get": {
+                "tags": [
+                    "ExpressContrast"
+                ],
+                "summary": "\u83b7\u53d6\u6240\u6709\u6d3e\u9001\u5458\u548c\u8054\u901a\u7cfb\u7edf\u5bf9\u7167\u5173\u7cfb",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Expresses/waitingOrder": {
+            "get": {
+                "tags": [
+                    "Expresses"
+                ],
+                "summary": "\u83b7\u53d6\u672a\u5b8c\u6210\u8ba2\u5355 \u6d3e\u9001, \u6d3e\u9001\u4e2d, \u6539\u7ea6",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "Lat",
+                        "in": "query",
+                        "description": "\u7ecf\u5ea6",
+                        "required": true,
+                        "type": "number"
+                    },
+                    {
+                        "name": "Lng",
+                        "in": "query",
+                        "description": "\u7eac\u5ea6",
+                        "required": true,
+                        "type": "number"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Expresses/finalStateOrders": {
+            "get": {
+                "tags": [
+                    "Expresses"
+                ],
+                "summary": "\u83b7\u53d6\u5df2\u5b8c\u7ed3\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "PageIndex",
+                        "in": "query",
+                        "description": "\u9875\u6570",
+                        "required": true,
+                        "type": "number"
+                    },
+                    {
+                        "name": "PageSize",
+                        "in": "query",
+                        "description": "\u6570\u636e\u6761\u6570",
+                        "required": true,
+                        "type": "number"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Expresses/accept?id={id}": {
+            "post": {
+                "tags": [
+                    "Expresses"
+                ],
+                "summary": "\u63a5\u53d7\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "lat",
+                        "in": "query",
+                        "description": "\u7ecf\u5ea6",
+                        "required": true,
+                        "type": "number"
+                    },
+                    {
+                        "name": "lng",
+                        "in": "query",
+                        "description": "\u7eac\u5ea6",
+                        "required": true,
+                        "type": "number"
+                    },
+                    {
+                        "name": "address",
+                        "in": "query",
+                        "description": "\u4f4d\u7f6e",
+                        "required": true,
+                        "type": "number"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Expresses/expressing": {
+            "get": {
+                "tags": [
+                    "Expresses"
+                ],
+                "summary": "\u83b7\u53d6\u5f53\u524d\u6d3e\u9001\u4e2d\u7684\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Medias/audio": {
+            "get": {
+                "tags": [
+                    "Medias"
+                ],
+                "summary": "Mp3\u64ad\u653eurl",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "fileName",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6587\u4ef6\u540d\u79f0",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/ordersAll": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u5206\u9875\u83b7\u53d6\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "PageIndex",
+                        "in": "query",
+                        "description": "\u9875\u6570",
+                        "required": true,
+                        "type": "number"
+                    },
+                    {
+                        "name": "PageSize",
+                        "in": "query",
+                        "description": "\u6570\u636e\u6761\u6570",
+                        "required": true,
+                        "type": "number"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/establish": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u521b\u5efa\u65b0\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "json",
+                        "in": "query",
+                        "description": "\u8ba2\u5355json\u6570\u636e",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/ordersOne?id={id}": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u5206\u9875\u83b7\u53d6\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "\u8ba2\u5355id",
+                        "required": true,
+                        "type": "number"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/delete?id={id}": {
+            "delete": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u5220\u9664\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "\u8ba2\u5355id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/update?id={id}": {
+            "patch": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u66f4\u65b0\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/callStatus": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u83b7\u53d6\u901a\u8bdd\u60c5\u51b5",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/rollback": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u672a\u63a5\u901a\u56de\u6eda\u63d0\u53d6",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/connectedRollback": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u5df2\u63a5\u901a\u56de\u6eda\u63d0\u53d6",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/search": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u641c\u7d22\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "json",
+                        "in": "query",
+                        "description": "json\u6570\u636e",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/searchByCall": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u6839\u636e\u901a\u8bdd\u641c\u7d22\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "json",
+                        "in": "query",
+                        "description": "json\u6570\u636e",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/upload": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u4e0a\u4f20 Excel",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "BusinessId",
+                        "in": "query",
+                        "description": "BusinessId",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "Block",
+                        "in": "query",
+                        "description": "Block",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "Distinct",
+                        "in": "query",
+                        "description": "Distinct",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/assign": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u5206\u914d\u533a\u57df\u548c\u4eba\u5458",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "id",
+                        "required": true,
+                        "type": "number"
+                    },
+                    {
+                        "name": "phone",
+                        "in": "query",
+                        "description": "phone",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "businessId",
+                        "in": "query",
+                        "description": "businessId",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "address",
+                        "in": "query",
+                        "description": "address",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "district",
+                        "in": "query",
+                        "description": "district",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "visitTime",
+                        "in": "query",
+                        "description": "visitTime",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "lat",
+                        "in": "query",
+                        "description": "lat",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "lng",
+                        "in": "query",
+                        "description": "lng",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/outcall": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u5916\u547c\u7cfb\u7edf\u63d0\u53d6\u7535\u8bdd\u53f7\u7801",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "Num",
+                        "in": "query",
+                        "description": "Num",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/OutCallRecover": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u5916\u547c\u6545\u969c\u6062\u590d\u65f6\u83b7\u5f97\u5df2\u63d0\u53d6\u7684\u6570\u636e",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/changeExpress": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u6539\u6d3e\u6d3e\u9001\u5458\u6240\u6709\u672a\u5b8c\u6210\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "sourceUserId",
+                        "in": "query",
+                        "description": "sourceUserId",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "targetUserId",
+                        "in": "query",
+                        "description": "targetUserId",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/batchChangeExpress": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u8ba2\u5355 ID \u6279\u91cf\u6539\u6d3e",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "orderIds",
+                        "in": "query",
+                        "description": "orderIds",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "targetUserId",
+                        "in": "query",
+                        "description": "targetUserId",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/recover": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u56de\u6536\u8ba2\u5355, \u6e05\u9664\u6d3e\u9001\u70b9\u548c\u6d3e\u9001\u5458\u4fe1\u606f",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "query",
+                        "description": "orderId",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/template": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u4e0b\u8f7d\u8ba2\u5355\u6a21\u677f",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/export": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u5bfc\u51fa\u641c\u7d22\u7ed3\u679c Excel",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/delay": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u83b7\u53d6\u8d85\u65f6\u8ba2\u5355",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "PageIndex",
+                        "in": "query",
+                        "description": "PageIndex",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "PageSize",
+                        "in": "query",
+                        "description": "PageSize",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Orders/manualCallCheck": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "\u68c0\u67e5\u662f\u5426\u7b26\u5408\u624b\u62e8\u6761\u4ef6",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "phone",
+                        "in": "query",
+                        "description": "phone",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/assignWork": {
+            "get": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u6279\u91cf\u5206\u914d\u5de5\u4f5c",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "assignModels",
+                        "in": "\u5fc5\u4f20",
+                        "description": "json\u6570\u636e",
+                        "required": true,
+                        "type": "json"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/userPoints": {
+            "get": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u67e5\u770b\u4eca\u5929\u53ca\u4ee5\u540e\u7684\u4e0a\u73ed\u60c5\u51b5",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/todayWork": {
+            "post": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u67e5\u8be2\u4eca\u65e5\u6d3e\u9001\u4eba\u5458",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "businessId",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u4e1a\u52a1id",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "visitTime",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u8bbf\u95ee\u65f6\u95f4",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/validate": {
+            "post": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u9a8c\u8bc1\u914d\u9001\u70b9\u540d\u79f0",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9\u540d\u79f0",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/update": {
+            "patch": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u66f4\u65b0\u914d\u9001\u70b9",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/delete": {
+            "delete": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u5220\u9664\u5355\u4e2a\u914d\u9001\u70b9",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/create": {
+            "post": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u6dfb\u52a0\u914d\u9001\u70b9",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9\u540d\u79f0",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "district",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9\u533a\u57df",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "lat",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9\u7eac\u5ea6",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "lng",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9\u7ecf\u5ea6",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "address",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9\u5730\u5740",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "radius",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9\u534a\u5f84",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/export": {
+            "get": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u5bfc\u51fa\u914d\u9001\u70b9",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/getPoints": {
+            "get": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u67e5\u770b\u6240\u6709\u914d\u9001\u70b9",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Points/detail": {
+            "get": {
+                "tags": [
+                    "Points"
+                ],
+                "summary": "\u67e5\u770b\u5355\u4e2a\u914d\u9001\u70b9",
+                "description": "",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6d3e\u9001\u70b9id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Reassign/preAccept": {
+            "get": {
+                "tags": [
+                    "Reassign"
+                ],
+                "summary": "\u83b7\u53d6\u5f85\u63a5\u53d7\u6539\u6d3e",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Reassign/Reassigning": {
+            "get": {
+                "tags": [
+                    "Reassign"
+                ],
+                "summary": "\u83b7\u53d6\u6539\u6d3e\u8ba2\u5355",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Reassign/accept": {
+            "post": {
+                "tags": [
+                    "Reassign"
+                ],
+                "summary": "\u63a5\u53d7\u6d3e\u9001",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u8ba2\u5355id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Reassign/reject": {
+            "post": {
+                "tags": [
+                    "Reassign"
+                ],
+                "summary": "\u62d2\u7edd\u6d3e\u9001",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u8ba2\u5355id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Reassign/cancel": {
+            "post": {
+                "tags": [
+                    "Reassign"
+                ],
+                "summary": "\u53d6\u6d88\u6d3e\u9001",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u8ba2\u5355id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Reassign/Reassign": {
+            "post": {
+                "tags": [
+                    "Reassign"
+                ],
+                "summary": "\u521b\u5efa\u6539\u6d3e",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u8ba2\u5355id",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "targetId",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u76ee\u6807\u6d3e\u9001\u5458id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Businesses/getRoles": {
+            "get": {
+                "tags": [
+                    "Roles"
+                ],
+                "summary": "\u67e5\u770b\u6240\u6709\u89d2\u8272",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Roles/create": {
+            "post": {
+                "tags": [
+                    "Roles"
+                ],
+                "summary": "\u521b\u5efa\u89d2\u8272",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "roleName",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u89d2\u8272\u540d\u79f0",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Roles/detail": {
+            "get": {
+                "tags": [
+                    "Roles"
+                ],
+                "summary": "\u83b7\u53d6\u5355\u4e2a\u89d2\u8272",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u89d2\u8272id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Roles/delete": {
+            "delete": {
+                "tags": [
+                    "Roles"
+                ],
+                "summary": "\u5220\u9664\u89d2\u8272",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u89d2\u8272id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Roles/update": {
+            "patch": {
+                "tags": [
+                    "Roles"
+                ],
+                "summary": "\u66f4\u65b0\u89d2\u8272",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u89d2\u8272id",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "roleName",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u89d2\u8272\u540d\u79f0",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Schedules/schedules": {
+            "get": {
+                "tags": [
+                    "Schedules"
+                ],
+                "summary": "\u5206\u9875\u83b7\u53d6\u8c03\u5ea6\u5458",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "PageIndex",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u5f53\u524d\u9875",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "PageSize",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6bcf\u9875\u663e\u793a\u8bb0\u5f55",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Schedules/create": {
+            "post": {
+                "tags": [
+                    "Schedules"
+                ],
+                "summary": "\u521b\u5efa\u8c03\u5ea6\u5458",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Schedules/detail": {
+            "get": {
+                "tags": [
+                    "Schedules"
+                ],
+                "summary": "\u6839\u636e ID \u67e5\u8be2\u8c03\u5ea6\u5458",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u7528\u6237id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Schedules/delete": {
+            "delete": {
+                "tags": [
+                    "Schedules"
+                ],
+                "summary": "\u5220\u9664\u8c03\u5ea6\u5458",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u7528\u6237id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Schedules/update": {
+            "patch": {
+                "tags": [
+                    "Schedules"
+                ],
+                "summary": "\u66f4\u65b0\u8c03\u5ea6\u5458\u4fe1\u606f",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u7528\u6237id",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "jsonPatchDocument",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u66f4\u65b0json",
+                        "required": true,
+                        "type": "json"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/express": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\u5206\u9875\u83b7\u53d6\u6d3e\u9001\u5458",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "PageIndex",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u5f53\u524d\u9875",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "PageSize",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6bcf\u9875\u663e\u793a\u8bb0\u5f55",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/expresses": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\u83b7\u53d6\u6240\u6709\u6d3e\u9001\u5458",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/registers": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\u5206\u9875\u83b7\u53d6\u6ce8\u518c\u4eba\u5458",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "PageIndex",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u5f53\u524d\u9875",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "PageSize",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u6bcf\u9875\u663e\u793a\u8bb0\u5f55",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/detail": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\u6839\u636e ID \u83b7\u53d6\u7528\u6237\u4fe1\u606f",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u7528\u6237id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/delete": {
+            "delete": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\u5220\u9664\u7528\u6237",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u7528\u6237id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/update": {
+            "patch": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\u66f4\u65b0\u7528\u6237\u5404\u79cd\u4fe1\u606f",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u7528\u6237id",
+                        "required": true,
+                        "type": "int"
+                    },
+                    {
+                        "name": "jsonPatchDocument",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u66f4\u65b0json",
+                        "required": true,
+                        "type": "json"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/self": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\u83b7\u53d6\u81ea\u5df1\u4fe1\u606f",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/points": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\u83b7\u53d6\u6d3e\u9001\u70b9\u4eba\u5458\u5206\u914d\u60c5\u51b5",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "pointId",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u914d\u9001\u70b9id",
+                        "required": true,
+                        "type": "int"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        },
+        "/orderschedule/index.php/Home/Users/review": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "\r\n    \u5ba1\u6838\u6ce8\u518c\u7528\u6237",
+                "description": "",
+                "operationId": "",
+                "produces": [
+                    "application/json",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "in": "\u5fc5\u4f20",
+                        "description": "\u7528\u6237id",
+                        "required": true,
+                        "type": "json"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "headers": {
+                            "X-Rate-Limit": {
+                                "description": "calls per hour allowed by the user",
+                                "type": "integer",
+                                "format": "int32"
+                            },
+                            "X-Expires-After": {
+                                "description": "date in UTC when token expires",
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid username/password supplied"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}

@@ -1,0 +1,54 @@
+[2019-03-02 10:20:12] 58.246.102.96 /orderschedule/index.php/Home/Accounts/logout
+ERR: 退出账号cookie：admin
+
+[2019-03-02 10:39:12] 58.246.102.96 /orderschedule/index.php/Home/Orders/update?id=7034
+ERR: 3333------{"UserId":null,"PointId":"13","Lng":121.58338,"Lat":31.123034,"OrderType":"\u53ef\u6d3e\u5355"}
+
+[2019-03-02 10:40:11] 58.246.102.96 /orderschedule/index.php/Home/Orders/update?id=7034
+ERR: 3333------{"UserId":90,"PointId":9,"Lng":121.58338,"Lat":31.123034,"OrderType":"\u53ef\u6d3e\u5355"}
+
+[2019-03-02 10:47:49] 58.246.102.96 /orderschedule/index.php/Home/Orders/update?id=7034
+ERR: 3333------null
+
+[2019-03-02 11:38:12] 58.246.102.96 /orderschedule/index.php/Home/Orders/update?id=25941
+ERR: 3333------{"VisitTime":"2019-03-02 11:38","LastCallState":"\u5df2\u63a5\u901a","UserId":110,"PointId":1060,"State":"\u6d3e\u9001","Lng":121.6276,"Lat":31.24735,"ScheduleCancelReason":"","NextCallTime":"","OrderType":"\u53ef\u6d3e\u5355"}
+
+[2019-03-02 14:03:50] 58.246.102.96 /orderschedule/index.php/Home/Accounts/logout
+ERR: 退出账号cookie：admin
+
+[2019-03-02 14:05:29] 58.246.102.96 /orderschedule/index.php/Home/Accounts/logout
+ERR: 退出账号cookie：admin
+
+[2019-03-02 16:03:14] 58.246.102.96 /orderschedule/index.php/Home/Accounts/logout
+ERR: 退出账号cookie：admin
+
+[2019-03-02 16:03:51] 58.246.102.96 /orderschedule/index.php/Home/Accounts/logout
+ERR: 退出账号cookie：admin
+
+[2019-03-02 16:28:02] 58.246.102.96 /orderschedule/index.php/Home/Accounts/logout
+ERR: 退出账号cookie：bossManage
+
+[2019-03-02 16:33:32] 58.246.102.96 /orderschedule/index.php/Home/Expresses/waitingOrder?lng=121.535305&lat=31.331455
+ERR: www:SELECT orders.*,CASE orders.State WHEN '派送中' THEN 1 WHEN '改约' THEN 2 ELSE 3 END as testCol,businesses.name,businesses.type,businesses.description FROM `orders` RIGHT JOIN businesses ON orders.BusinessId = businesses.Id  WHERE orders.UserId = '110' AND orders.Deleted = 0 AND ( orders.State = '派送' OR orders.State = '派送中' OR orders.State = '改约' ) ORDER BY orders.VisitTime asc 
+
+[2019-03-02 16:36:07] 58.246.102.96 /orderschedule/index.php/Home/Expresses/waitingOrder
+ERR: www:SELECT orders.*,CASE orders.State WHEN '派送中' THEN 1 WHEN '改约' THEN 2 ELSE 3 END as testCol,businesses.name,businesses.type,businesses.description FROM `orders` RIGHT JOIN businesses ON orders.BusinessId = businesses.Id  WHERE orders.UserId = '25' AND orders.Deleted = 0 AND ( orders.State = '派送' OR orders.State = '派送中' OR orders.State = '改约' ) ORDER BY orders.VisitTime asc 
+
+[2019-03-02 17:05:43] 58.246.102.96 /orderschedule/index.php/Home/Expresses/accept
+ERR: SELECT `StartLat`,`StartLng`,`State`,`StartAddress` FROM `orders` WHERE `Id` = 0 LIMIT 1  
+
+[2019-03-02 17:07:08] 58.246.102.96 /orderschedule/index.php/Home/Expresses/accept
+ERR: SELECT `StartLat`,`StartLng`,`State`,`StartAddress` FROM `orders` WHERE `Id` = 0 LIMIT 1  
+
+[2019-03-02 17:07:57] 58.246.102.96 /orderschedule/index.php/Home/Expresses/accept
+ERR: SELECT `StartLat`,`StartLng`,`State`,`StartAddress` FROM `orders` WHERE `Id` = 0 LIMIT 1  
+
+[2019-03-02 17:09:02] 58.246.102.96 /orderschedule/index.php/Home/Expresses/accept
+ERR: SELECT `StartLat`,`StartLng`,`State`,`StartAddress` FROM `orders` WHERE `Id` = null LIMIT 1  
+
+[2019-03-02 17:09:40] 58.246.102.96 /orderschedule/index.php/Home/Expresses/accept
+ERR: SELECT `StartLat`,`StartLng`,`State`,`StartAddress` FROM `orders` WHERE `Id` = 0 LIMIT 1  
+
+[2019-03-02 17:11:13] 58.246.102.96 /orderschedule/index.php/Home/Expresses/accept
+ERR: SELECT `StartLat`,`StartLng`,`State`,`StartAddress` FROM `orders` WHERE `Id` = 0 LIMIT 1  
+

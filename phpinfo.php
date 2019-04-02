@@ -1,0 +1,23 @@
+<?
+$str='{
+    "pageData":{
+        "pf":{
+            "msgList":[
+                {
+                    "moduleId":"cm1001",
+                    "phoneNum":"18512128002",
+                    "content":"测试"
+                }
+            ]
+        }
+    }
+}';
+$msgList=array(
+"moduleId"=>"cm1001",
+"phoneNum"=>"18512128002",
+"content"=>"测试"
+);
+$data['pageData']['pf']['msgList'][]=$msgList;
+//print_r($str);die();
+print_r(json_encode($data));die();
+?>

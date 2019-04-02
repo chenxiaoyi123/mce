@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/App/Home/Controller/OrdersController.class.php" line="1134" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f3cc859-7798-4450-9afd-e211785cf4b3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ExpressesController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Home/Controller/ExpressesController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3420">
+              <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+              <folding>
+                <element signature="e#115#138#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpressesController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../orderschedule_test/App/Home/Controller/ExpressesController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="168" column="55" selection-start-line="168" selection-start-column="55" selection-end-line="168" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DistanceController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Home/Controller/DistanceController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4068">
+              <caret line="120" column="48" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>纪录不存在</find>
+      <find>upda</find>
+      <find>assi</find>
+      <find>ordersO</find>
+      <find>outcallR</find>
+      <find>ex</find>
+      <find>getImportSequence</find>
+      <find>one</find>
+      <find>Orderson</find>
+      <find>验证</find>
+      <find>estab</find>
+      <find>callhistories</find>
+      <find>受限访问，请联系管理员更改权限</find>
+      <find>where</find>
+      <find>impor</find>
+      <find>crawlerconfigsWrap</find>
+      <find>outcall</find>
+      <find>establish</find>
+      <find>search</find>
+      <find>sear</find>
+      <find>importSequenceStartTime</find>
+      <find>ordersone</find>
+      <find>export</find>
+      <find>doGet</find>
+      <find>import</find>
+      <find>/import</find>
+      <find>update</find>
+      <find>pachong</find>
+      <find>assign</find>
+      <find>未完成</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Think/ThinkPHP/Library/Vendor/alipay/aop/AopClient.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/UrgingController.class.php" />
+        <option value="$PROJECT_DIR$/App/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/App/Push/Controller/CardsController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/WPtestController.class.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/swagger-ui-master/dist/index.html" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Think/ThinkPHP/Conf/convention.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/ApiController.class.php" />
+        <option value="$USER_HOME$/Documents/WeChat Files/chenxiaoyi0609/Files/1.json" />
+        <option value="$USER_HOME$/Desktop/新建文本文档 (2).json" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/2.json" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/BusinessesController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/1.php" />
+        <option value="$PROJECT_DIR$/../wxunicom/App/Home/Controller/UrgingController.class.php" />
+        <option value="$PROJECT_DIR$/App/Ordersend/Conf/config.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/CrawlerConfigController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/1" />
+        <option value="$PROJECT_DIR$/../wxbms/web/index.php" />
+        <option value="$PROJECT_DIR$/phpinfo.php" />
+        <option value="$PROJECT_DIR$/../h5html/changNing/flashSale/index.html" />
+        <option value="$PROJECT_DIR$/../wxunicom/App/Home/Controller/CashController.class.php" />
+        <option value="$PROJECT_DIR$/App/Ordersend/Controller/SendOrderController.class.php" />
+        <option value="$PROJECT_DIR$/App/Common/Core/Excel.class.php" />
+        <option value="$PROJECT_DIR$/App/Common/Core/Method.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/TestController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/UsersController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/SchedulesController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/RolesController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/SqlServerController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/AccountsController.class.php" />
+        <option value="$PROJECT_DIR$/../wxunicom/App/Home/Controller/TaskUserController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/ImportSeqController.class.php" />
+        <option value="$PROJECT_DIR$/../wxunicom/App/Home/Controller/SpikeController.class.php" />
+        <option value="$PROJECT_DIR$/../wxunicom/Think/ThinkPHP/Conf/convention.php" />
+        <option value="$PROJECT_DIR$/App/Home/Conf/config.php" />
+        <option value="$PROJECT_DIR$/../orderschedule_test/App/Home/Conf/config.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/ExpressContrastController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/OrdersController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Common/function.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/CallHistoriesController.class.php" />
+        <option value="$PROJECT_DIR$/../wxunicom/App/Home/Controller/MiniProgramController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/PointsController.class.php" />
+        <option value="$PROJECT_DIR$/../wxunicom/App/Bigturntable/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/../orderschedule_test/App/Home/Controller/DistanceController.class.php" />
+        <option value="$PROJECT_DIR$/../orderschedule_test/App/Home/Controller/OrdersController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/DistanceController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/ExpressesController.class.php" />
+        <option value="$PROJECT_DIR$/../orderschedule_test/App/Home/Controller/ExpressesController.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/PHPExcel/PHPExcel" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="orderschedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderschedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="orderschedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderschedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="orderschedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderschedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="orderschedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderschedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Core" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="orderschedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderschedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="orderschedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderschedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="orderschedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderschedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Conf" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="orderschedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderschedule" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wxunicom" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\1工作\wxunicom\App\Home\View\UserInfo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\1工作\orderschedule\App\Ordersend\Conf" />
+      <recent name="C:\1工作\wxunicom\App\Esim\Controller" />
+      <recent name="C:\1工作\wxunicom\App\Esim" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f3cc859-7798-4450-9afd-e211785cf4b3" name="Default" comment="" />
+      <created>1520393861840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520393861840</updated>
+      <workItem from="1520393862923" duration="17814000" />
+      <workItem from="1520470292064" duration="23468000" />
+      <workItem from="1520556856790" duration="17746000" />
+      <workItem from="1520814590586" duration="85000" />
+      <workItem from="1520816023835" duration="20061000" />
+      <workItem from="1520901717407" duration="10739000" />
+      <workItem from="1520987908067" duration="1862000" />
+      <workItem from="1521075656689" duration="8699000" />
+      <workItem from="1521160284034" duration="2092000" />
+      <workItem from="1521182413447" duration="8103000" />
+      <workItem from="1521249322393" duration="596000" />
+      <workItem from="1521419448390" duration="724000" />
+      <workItem from="1521430297071" duration="9157000" />
+      <workItem from="1521505954141" duration="20653000" />
+      <workItem from="1521592171422" duration="21194000" />
+      <workItem from="1521678630536" duration="9057000" />
+      <workItem from="1521765021837" duration="12650000" />
+      <workItem from="1522024977159" duration="5621000" />
+      <workItem from="1522110794160" duration="3706000" />
+      <workItem from="1522223829379" duration="4985000" />
+      <workItem from="1522283738325" duration="16199000" />
+      <workItem from="1522369846075" duration="21363000" />
+      <workItem from="1522458044535" duration="16070000" />
+      <workItem from="1522629274987" duration="274000" />
+      <workItem from="1522629570620" duration="144000" />
+      <workItem from="1522630144129" duration="29721000" />
+      <workItem from="1522715670552" duration="12789000" />
+      <workItem from="1522803994115" duration="760000" />
+      <workItem from="1522804827629" duration="445000" />
+      <workItem from="1522805298287" duration="76000" />
+      <workItem from="1522805644334" duration="305000" />
+      <workItem from="1522806166718" duration="9000" />
+      <workItem from="1522806433293" duration="4252000" />
+      <workItem from="1523147535861" duration="9504000" />
+      <workItem from="1523234518732" duration="5981000" />
+      <workItem from="1523320184969" duration="3644000" />
+      <workItem from="1523406577986" duration="8375000" />
+      <workItem from="1523492959332" duration="12351000" />
+      <workItem from="1523579539907" duration="2923000" />
+      <workItem from="1523954663799" duration="244000" />
+      <workItem from="1524011426201" duration="5428000" />
+      <workItem from="1524097921781" duration="1211000" />
+      <workItem from="1524550379633" duration="8753000" />
+      <workItem from="1524644135916" duration="4893000" />
+      <workItem from="1524702827953" duration="20760000" />
+      <workItem from="1524789107918" duration="2039000" />
+      <workItem from="1524793151603" duration="15361000" />
+      <workItem from="1524817820118" duration="3715000" />
+      <workItem from="1524875443470" duration="6432000" />
+      <workItem from="1525307062241" duration="21861000" />
+      <workItem from="1525393715820" duration="2268000" />
+      <workItem from="1525743608759" duration="9878000" />
+      <workItem from="1525829483426" duration="24484000" />
+      <workItem from="1525913298665" duration="5179000" />
+      <workItem from="1526523277442" duration="1306000" />
+      <workItem from="1526635954686" duration="902000" />
+      <workItem from="1526691684993" duration="4223000" />
+      <workItem from="1526862766565" duration="899000" />
+      <workItem from="1526893488877" duration="1375000" />
+      <workItem from="1526949623064" duration="107000" />
+      <workItem from="1526976279565" duration="613000" />
+      <workItem from="1528764171506" duration="17810000" />
+      <workItem from="1528849691213" duration="4632000" />
+      <workItem from="1528936346522" duration="1956000" />
+      <workItem from="1530163635427" duration="10838000" />
+      <workItem from="1530497033985" duration="2441000" />
+      <workItem from="1530577275295" duration="3040000" />
+      <workItem from="1530606072982" duration="4354000" />
+      <workItem from="1530663977903" duration="23206000" />
+      <workItem from="1530750551745" duration="17718000" />
+      <workItem from="1530836620273" duration="8704000" />
+      <workItem from="1530925593751" duration="4271000" />
+      <workItem from="1531096171840" duration="3976000" />
+      <workItem from="1531182515074" duration="10986000" />
+      <workItem from="1531270064199" duration="1936000" />
+      <workItem from="1531273593386" duration="5169000" />
+      <workItem from="1531375699836" duration="1216000" />
+      <workItem from="1531442319322" duration="609000" />
+      <workItem from="1531447492316" duration="11452000" />
+      <workItem from="1531704034739" duration="3657000" />
+      <workItem from="1531816276719" duration="3953000" />
+      <workItem from="1531877565038" duration="7780000" />
+      <workItem from="1531960149745" duration="15952000" />
+      <workItem from="1532047945266" duration="20889000" />
+      <workItem from="1532134671059" duration="14938000" />
+      <workItem from="1532305799887" duration="15241000" />
+      <workItem from="1532392750959" duration="11820000" />
+      <workItem from="1532419876882" duration="3742000" />
+      <workItem from="1532479062367" duration="19023000" />
+      <workItem from="1532567435581" duration="12983000" />
+      <workItem from="1532651328095" duration="6603000" />
+      <workItem from="1532740592854" duration="11210000" />
+      <workItem from="1532910385137" duration="18541000" />
+      <workItem from="1532996855734" duration="12155000" />
+      <workItem from="1533083740092" duration="10062000" />
+      <workItem from="1533170298852" duration="3313000" />
+      <workItem from="1533256974856" duration="18529000" />
+      <workItem from="1533344626896" duration="13317000" />
+      <workItem from="1533601320024" duration="14986000" />
+      <workItem from="1533688809270" duration="14182000" />
+      <workItem from="1533774766953" duration="16973000" />
+      <workItem from="1533861794245" duration="14477000" />
+      <workItem from="1533952020681" duration="21251000" />
+      <workItem from="1534120318028" duration="25101000" />
+      <workItem from="1534207081401" duration="26471000" />
+      <workItem from="1534292954887" duration="25959000" />
+      <workItem from="1534379440870" duration="32950000" />
+      <workItem from="1534472401576" duration="14357000" />
+      <workItem from="1534553825924" duration="7404000" />
+      <workItem from="1534730791186" duration="11332000" />
+      <workItem from="1534811534673" duration="11223000" />
+      <workItem from="1534898113566" duration="23913000" />
+      <workItem from="1534984476907" duration="18548000" />
+      <workItem from="1535071166592" duration="10331000" />
+      <workItem from="1535330002449" duration="26308000" />
+      <workItem from="1535416130661" duration="23172000" />
+      <workItem from="1535502506193" duration="21431000" />
+      <workItem from="1535589406331" duration="16451000" />
+      <workItem from="1535675283062" duration="11292000" />
+      <workItem from="1535764658951" duration="4073000" />
+      <workItem from="1535934656215" duration="19590000" />
+      <workItem from="1536020900562" duration="21701000" />
+      <workItem from="1536128828894" duration="8955000" />
+      <workItem from="1536193848569" duration="10238000" />
+      <workItem from="1536280334536" duration="9995000" />
+      <workItem from="1536371162643" duration="6509000" />
+      <workItem from="1536539293125" duration="1736000" />
+      <workItem from="1536560688419" duration="3083000" />
+      <workItem from="1536637069424" duration="5913000" />
+      <workItem from="1536715969828" duration="22303000" />
+      <workItem from="1536798951603" duration="3584000" />
+      <workItem from="1536887693543" duration="8637000" />
+      <workItem from="1536975432957" duration="10645000" />
+      <workItem from="1537145121090" duration="6305000" />
+      <workItem from="1537249603150" duration="8439000" />
+      <workItem from="1537318735127" duration="16720000" />
+      <workItem from="1537352222901" duration="3395000" />
+      <workItem from="1537403573737" duration="21228000" />
+      <workItem from="1537508359068" duration="9244000" />
+      <workItem from="1537835311839" duration="17222000" />
+      <workItem from="1537922382489" duration="15537000" />
+      <workItem from="1538008552470" duration="10711000" />
+      <workItem from="1538027959794" duration="12493000" />
+      <workItem from="1538094742915" duration="21786000" />
+      <workItem from="1538181538594" duration="7192000" />
+      <workItem from="1538968189485" duration="2745000" />
+      <workItem from="1539132120214" duration="9752000" />
+      <workItem from="1539218042229" duration="10873000" />
+      <workItem from="1539306618818" duration="15742000" />
+      <workItem from="1539394223955" duration="18511000" />
+      <workItem from="1539564134306" duration="23573000" />
+      <workItem from="1539649768266" duration="19025000" />
+      <workItem from="1539737175623" duration="14743000" />
+      <workItem from="1539822838094" duration="23426000" />
+      <workItem from="1539909312180" duration="10238000" />
+      <workItem from="1540168275186" duration="13224000" />
+      <workItem from="1540197631490" duration="3284000" />
+      <workItem from="1540205823639" duration="1481000" />
+      <workItem from="1540255351590" duration="29000" />
+      <workItem from="1540341813271" duration="4579000" />
+      <workItem from="1540372286989" duration="614000" />
+      <workItem from="1540427429391" duration="16958000" />
+      <workItem from="1540513749770" duration="22808000" />
+      <workItem from="1540602317828" duration="10344000" />
+      <workItem from="1540773720595" duration="17054000" />
+      <workItem from="1540859808205" duration="27617000" />
+      <workItem from="1540945835973" duration="9062000" />
+      <workItem from="1541048075264" duration="9693000" />
+      <workItem from="1541120416931" duration="11411000" />
+      <workItem from="1541377830026" duration="17728000" />
+      <workItem from="1541464258860" duration="19404000" />
+      <workItem from="1541550910804" duration="11912000" />
+      <workItem from="1541638659382" duration="10074000" />
+      <workItem from="1541724888252" duration="1142000" />
+      <workItem from="1541726048400" duration="2330000" />
+      <workItem from="1541761717574" duration="578000" />
+      <workItem from="1541983040012" duration="335000" />
+      <workItem from="1542592057888" duration="6759000" />
+      <workItem from="1542785323069" duration="424000" />
+      <workItem from="1542851494188" duration="412000" />
+      <workItem from="1543027972880" duration="496000" />
+      <workItem from="1543200179260" duration="441000" />
+      <workItem from="1543568104356" duration="1192000" />
+      <workItem from="1543823208182" duration="2968000" />
+      <workItem from="1543884338428" duration="23000" />
+      <workItem from="1544426411478" duration="708000" />
+      <workItem from="1544509694583" duration="1366000" />
+      <workItem from="1544575547318" duration="873000" />
+      <workItem from="1544757020045" duration="2190000" />
+      <workItem from="1545007347180" duration="4037000" />
+      <workItem from="1545097747700" duration="6814000" />
+      <workItem from="1545119439798" duration="5054000" />
+      <workItem from="1545180097515" duration="2909000" />
+      <workItem from="1545184536549" duration="3677000" />
+      <workItem from="1545288289945" duration="6709000" />
+      <workItem from="1545352323529" duration="9441000" />
+      <workItem from="1545442120342" duration="3071000" />
+      <workItem from="1545612073039" duration="2114000" />
+      <workItem from="1545619491666" duration="5831000" />
+      <workItem from="1545698392630" duration="1715000" />
+      <workItem from="1545706602611" duration="10179000" />
+      <workItem from="1545784451744" duration="918000" />
+      <workItem from="1545805751702" duration="9004000" />
+      <workItem from="1545870916624" duration="1799000" />
+      <workItem from="1545879969643" duration="605000" />
+      <workItem from="1545894570082" duration="2852000" />
+      <workItem from="1545957221967" duration="9975000" />
+      <workItem from="1546043698513" duration="4911000" />
+      <workItem from="1546411787818" duration="2102000" />
+      <workItem from="1546419011220" duration="1989000" />
+      <workItem from="1546475771709" duration="1866000" />
+      <workItem from="1546479655436" duration="21744000" />
+      <workItem from="1546562808685" duration="21481000" />
+      <workItem from="1546650918591" duration="10535000" />
+      <workItem from="1546821363484" duration="24160000" />
+      <workItem from="1546907477901" duration="23657000" />
+      <workItem from="1546994365014" duration="23436000" />
+      <workItem from="1547080558079" duration="32169000" />
+      <workItem from="1547168500750" duration="33068000" />
+      <workItem from="1547426371830" duration="23103000" />
+      <workItem from="1547512617160" duration="14129000" />
+      <workItem from="1547598999671" duration="19995000" />
+      <workItem from="1547777748196" duration="23184000" />
+      <workItem from="1548117356351" duration="22402000" />
+      <workItem from="1548203948718" duration="21879000" />
+      <workItem from="1548291130644" duration="10703000" />
+      <workItem from="1548376338482" duration="23718000" />
+      <workItem from="1548635648897" duration="10971000" />
+      <workItem from="1548722012190" duration="11272000" />
+      <workItem from="1548808459751" duration="2110000" />
+      <workItem from="1548816174477" duration="7978000" />
+      <workItem from="1548894934260" duration="12053000" />
+      <workItem from="1548981111659" duration="11916000" />
+      <workItem from="1549067982205" duration="6526000" />
+      <workItem from="1550027880678" duration="20963000" />
+      <workItem from="1551055308506" duration="4731000" />
+      <workItem from="1551227810775" duration="19644000" />
+      <workItem from="1551314138813" duration="18498000" />
+      <workItem from="1551400567563" duration="18835000" />
+      <workItem from="1551489131227" duration="17173000" />
+      <workItem from="1551660466581" duration="27221000" />
+      <workItem from="1551746052155" duration="16425000" />
+      <workItem from="1551833376479" duration="19746000" />
+      <workItem from="1551918831268" duration="20596000" />
+      <workItem from="1552005690826" duration="14795000" />
+      <workItem from="1552264977420" duration="15838000" />
+      <workItem from="1552351081460" duration="14298000" />
+      <workItem from="1552437691184" duration="1133000" />
+      <workItem from="1552444320385" duration="3577000" />
+      <workItem from="1552523923604" duration="17417000" />
+      <workItem from="1552611046123" duration="6223000" />
+      <workItem from="1552875193760" duration="9358000" />
+      <workItem from="1552955619717" duration="17306000" />
+      <workItem from="1553042203944" duration="14253000" />
+      <workItem from="1553128575391" duration="12354000" />
+      <workItem from="1553214886164" duration="1777000" />
+      <workItem from="1553475195578" duration="1824000" />
+      <workItem from="1553494001116" duration="5223000" />
+      <workItem from="1553832927056" duration="5533000" />
+      <workItem from="1554078332237" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2732195000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.08020833" side_tool="true" weight="0.042842217" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.91979164" weight="0.12434692" />
+      <window_info id="Remote Host" order="3" weight="0.17760417" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.128125" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="11" visible="true" weight="0.07074974" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6123302" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../wxbms/bf/MiniProgramController.class.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../wxbms/WlController.class.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../wxbms/addons/dayu_yuyuepay/site.php</url>
+          <line>1568</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/App/Double11/Controller/IndexController.class.php</url>
+          <line>778</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="72" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../wxbms/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../h5html/changNing/flashSale/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wxunicom/App/Home/Controller/CashController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-658">
+          <caret line="195" column="26" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wxbms/22/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="105" column="12" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Ordersend/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Ordersend/Controller/SendOrderController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/CrawlerConfigController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9000">
+          <caret line="257" column="43" selection-start-line="257" selection-start-column="29" selection-end-line="257" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/OrderHistoryController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1286">
+          <caret line="212" column="42" lean-forward="true" selection-start-line="212" selection-start-column="42" selection-end-line="212" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/php-excel-master/excel/excelclass/ExcelExport.php" />
+    <entry file="file://$USER_HOME$/Desktop/php-excel-master/example.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Microsoft/Windows/INetCache/IE/AZFX0D5H/export[1].json" />
+    <entry file="file://$PROJECT_DIR$/App/Common/Core/Fun.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="669" column="9" selection-start-line="669" selection-start-column="9" selection-end-line="669" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Core/Excel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="180" column="40" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/LuxwController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="83" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/BusinessesController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6756">
+          <caret line="117" column="27" lean-forward="true" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/RolesController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/SchedulesController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/SqlServerController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4716">
+          <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1742" column="9" selection-start-line="1742" selection-start-column="9" selection-end-line="1742" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Think/ThinkPHP/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/ImportSeqController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/laravel-versions-master/package.json" />
+    <entry file="file://$USER_HOME$/Desktop/laravel-master/public/index.php" />
+    <entry file="file://$PROJECT_DIR$/../wxunicom/App/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wxunicom/Think/ThinkPHP/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="56" column="53" lean-forward="true" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wxunicom/App/Home/Controller/TaskUserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3240">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wxunicom/App/Home/Controller/SpikeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/MediasController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Runtime/common~runtime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../orderschedule_test/App/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/ExpressContrastController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/CallHistoriesController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7776">
+          <caret line="224" column="35" selection-start-line="224" selection-start-column="35" selection-end-line="224" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="978" column="9" selection-start-line="978" selection-start-column="9" selection-end-line="978" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/TestController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4407">
+          <caret line="173" column="21" lean-forward="true" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wxunicom/App/Home/Controller/MiniProgramController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="273" column="27" lean-forward="true" selection-start-line="273" selection-start-column="27" selection-end-line="273" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/UsersController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/PointsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Core/Method.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="344" column="39" lean-forward="true" selection-start-line="344" selection-start-column="39" selection-end-line="344" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wxunicom/App/Bigturntable/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="157" column="14" selection-start-line="157" selection-start-column="14" selection-end-line="157" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1044">
+          <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/OrdersController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="1758" column="33" selection-start-line="1758" selection-start-column="7" selection-end-line="1758" selection-end-column="33" />
+          <folding>
+            <element signature="e#116#138#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../orderschedule_test/App/Home/Controller/OrdersController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="1398" column="28" selection-start-line="1398" selection-start-column="25" selection-end-line="1398" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/AccountsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-872">
+          <caret line="99" column="32" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../orderschedule_test/App/Home/Controller/DistanceController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/ExpressesController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+          <folding>
+            <element signature="e#115#138#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/DistanceController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4068">
+          <caret line="120" column="48" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../orderschedule_test/App/Home/Controller/ExpressesController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="168" column="55" selection-start-line="168" selection-start-column="55" selection-end-line="168" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
